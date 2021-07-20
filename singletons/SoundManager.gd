@@ -4,7 +4,13 @@ extends Node
 This SoundManager class is based on tutorials created by John Ivess
 link: https://www.youtube.com/watch?v=AsVc0zGp7Uc
 
-show him some love :)
+How it works:
+	First we load all the sounds placed inside res://assets/sounds/ and
+	place them inside the sounds_dictionary, using the sound name as the 
+	dictionary key.
+	
+	Then, from anywhere in the game, we can call play_sound(sound_name) and it
+	will play :)
 """
 
 
@@ -43,8 +49,8 @@ func load_sound_paths_dictionary(sound_folder_path: String) -> void:
 		
 		while file_name != "":
 			if directory.current_is_dir():
-				pass # If you want recursive file loading, do it here. I think it's a bit overkill :)
-			else:
+				pass # If you want recursive file loading, do it here. I think
+			else:    # it's a bit overkill :)
 				for file_type in supported_audio_files:
 					if file_name.ends_with(file_type):
 						var sound_file_path: String = sound_folder_path + "/" + file_name
