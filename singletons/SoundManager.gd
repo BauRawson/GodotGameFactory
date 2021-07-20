@@ -41,9 +41,9 @@ func play_sound(sound_name: String, parent: Object) -> void:
 		stream_player.play()
 
 
-func load_sound_paths_dictionary(sound_folder_path: String) -> void:
+func load_sound_paths_dictionary(_sound_folder_path: String) -> void:
 	var directory: Directory = Directory.new()
-	if directory.open(sound_folder_path) == OK:
+	if directory.open(_sound_folder_path) == OK:
 		directory.list_dir_begin()
 		var file_name = directory.get_next()
 		
