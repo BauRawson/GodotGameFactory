@@ -17,6 +17,12 @@ config/icon="res://icon.png"
 [autoload]
 
 SoundManager="*res://singletons/SoundManager.gd"
+MobileAds="*res://addons/admob/scripts/MobileAds.gd"
+AdmobManager="*res://singletons/AdmobManager.gd"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/admob/plugin.cfg" )
 
 [locale]
 
@@ -29,4 +35,5 @@ common/enable_pause_aware_picking=true
 [rendering]
 
 quality/driver/driver_name="GLES2"
+vram_compression/import_etc=true
 environment/default_environment="res://default_env.tres"
