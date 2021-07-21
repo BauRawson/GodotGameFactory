@@ -4,40 +4,6 @@
             "outputFile": "D:\\Godot\\Projects\\GodotGameFactory\\android\\build\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sk\\values-sk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\f67d85943d9cad2370d93f677f0a0aa9\\jetified-play-services-basement-17.6.0\\res\\values-sk\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "197",
-                        "endOffsets": "444"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "105",
-                        "endColumns": "197",
-                        "endOffsets": "298"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\6ae463a1ca68eaa1dde82bb26ec9dcdf\\core-1.2.0\\res\\values-sk\\values-sk.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "18",
-                        "startColumns": "4",
-                        "startOffsets": "1821",
-                        "endColumns": "100",
-                        "endOffsets": "1917"
-                    }
-                },
-                {
                     "source": "D:\\Godot\\Projects\\GodotGameFactory\\android\\build\\res\\values-sk\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
@@ -47,28 +13,28 @@
                         "endOffsets": "178"
                     },
                     "to": {
-                        "startLines": "3",
+                        "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "303",
+                        "startOffsets": "55",
                         "endColumns": "70",
-                        "endOffsets": "369"
+                        "endOffsets": "121"
                     }
                 },
                 {
-                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\af4fd823e542fa107b13064f17c08ba7\\jetified-play-services-ads-20.2.0\\res\\values-sk\\values.xml",
+                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\61f903db516e52d8783db3337e87ee1a\\core-1.0.0\\res\\values-sk\\values-sk.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "199,305,442,522,671,761,890,1009,1082,1191,1255,1322,1411,1514",
-                        "endColumns": "105,136,79,148,89,128,118,72,108,63,66,88,102,75",
-                        "endOffsets": "304,441,521,670,760,889,1008,1081,1190,1254,1321,1410,1513,1589"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "374,484,625,709,862,956,1089,1212,1289,1402,1470,1541,1634,1741",
-                        "endColumns": "109,140,83,152,93,132,122,76,112,67,70,92,106,79",
-                        "endOffsets": "479,620,704,857,951,1084,1207,1284,1397,1465,1536,1629,1736,1816"
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "126",
+                        "endColumns": "100",
+                        "endOffsets": "222"
                     }
                 }
             ]

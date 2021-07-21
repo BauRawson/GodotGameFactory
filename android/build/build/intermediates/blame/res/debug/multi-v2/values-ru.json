@@ -4,20 +4,20 @@
             "outputFile": "D:\\Godot\\Projects\\GodotGameFactory\\android\\build\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru\\values-ru.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\af4fd823e542fa107b13064f17c08ba7\\jetified-play-services-ads-20.2.0\\res\\values-ru\\values.xml",
+                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\61f903db516e52d8783db3337e87ee1a\\core-1.0.0\\res\\values-ru\\values-ru.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "199,322,454,534,692,782,956,1074,1152,1263,1330,1397,1474,1585",
-                        "endColumns": "122,131,79,157,89,173,117,77,110,66,66,76,110,76",
-                        "endOffsets": "321,453,533,691,781,955,1073,1151,1262,1329,1396,1473,1584,1661"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "392,519,655,739,901,995,1173,1295,1377,1492,1563,1634,1715,1830",
-                        "endColumns": "126,135,83,161,93,177,121,81,114,70,70,80,114,80",
-                        "endOffsets": "514,650,734,896,990,1168,1290,1372,1487,1558,1629,1710,1825,1906"
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "126",
+                        "endColumns": "100",
+                        "endOffsets": "222"
                     }
                 },
                 {
@@ -30,45 +30,11 @@
                         "endOffsets": "178"
                     },
                     "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "321",
-                        "endColumns": "70",
-                        "endOffsets": "387"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\f67d85943d9cad2370d93f677f0a0aa9\\jetified-play-services-basement-17.6.0\\res\\values-ru\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "215",
-                        "endOffsets": "462"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "105",
-                        "endColumns": "215",
-                        "endOffsets": "316"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\6ae463a1ca68eaa1dde82bb26ec9dcdf\\core-1.2.0\\res\\values-ru\\values-ru.xml",
-                    "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "18",
-                        "startColumns": "4",
-                        "startOffsets": "1911",
-                        "endColumns": "100",
-                        "endOffsets": "2007"
+                        "endColumns": "70",
+                        "endOffsets": "121"
                     }
                 }
             ]

@@ -1,4 +1,4 @@
-#Tue Jul 20 15:23:19 ART 2021
+#Wed Jul 21 06:55:57 ART 2021
 base.0=D\:\\Godot\\Projects\\GodotGameFactory\\android\\build\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

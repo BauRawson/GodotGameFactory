@@ -13,32 +13,15 @@
                         "endOffsets": "178"
                     },
                     "to": {
-                        "startLines": "3",
+                        "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "310",
+                        "startOffsets": "55",
                         "endColumns": "70",
-                        "endOffsets": "376"
+                        "endOffsets": "121"
                     }
                 },
                 {
-                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\af4fd823e542fa107b13064f17c08ba7\\jetified-play-services-ads-20.2.0\\res\\values-uk\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "199,314,451,531,678,767,903,1028,1104,1213,1279,1346,1428,1532",
-                        "endColumns": "114,136,79,146,88,135,124,75,108,65,66,81,103,75",
-                        "endOffsets": "313,450,530,677,766,902,1027,1103,1212,1278,1345,1427,1531,1607"
-                    },
-                    "to": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "381,500,641,725,876,969,1109,1238,1318,1431,1501,1572,1658,1766",
-                        "endColumns": "118,140,83,150,92,139,128,79,112,69,70,85,107,79",
-                        "endOffsets": "495,636,720,871,964,1104,1233,1313,1426,1496,1567,1653,1761,1841"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\6ae463a1ca68eaa1dde82bb26ec9dcdf\\core-1.2.0\\res\\values-uk\\values-uk.xml",
+                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\61f903db516e52d8783db3337e87ee1a\\core-1.0.0\\res\\values-uk\\values-uk.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -47,28 +30,11 @@
                         "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "18",
+                        "startLines": "3",
                         "startColumns": "4",
-                        "startOffsets": "1846",
+                        "startOffsets": "126",
                         "endColumns": "100",
-                        "endOffsets": "1942"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\f67d85943d9cad2370d93f677f0a0aa9\\jetified-play-services-basement-17.6.0\\res\\values-uk\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "204",
-                        "endOffsets": "451"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "105",
-                        "endColumns": "204",
-                        "endOffsets": "305"
+                        "endOffsets": "222"
                     }
                 }
             ]

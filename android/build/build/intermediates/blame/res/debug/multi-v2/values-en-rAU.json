@@ -4,7 +4,7 @@
             "outputFile": "D:\\Godot\\Projects\\GodotGameFactory\\android\\build\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\6ae463a1ca68eaa1dde82bb26ec9dcdf\\core-1.2.0\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\61f903db516e52d8783db3337e87ee1a\\core-1.0.0\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

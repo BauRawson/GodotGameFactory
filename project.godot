@@ -17,13 +17,7 @@ config/icon="res://icon.png"
 [autoload]
 
 SoundManager="*res://singletons/SoundManager.gd"
-MobileAds="*res://addons/admob/scripts/MobileAds.gd"
-AdmobManager="*res://singletons/AdmobManager.gd"
 IAPManager="*res://singletons/IAPManager.gd"
-
-[editor_plugins]
-
-enabled=PoolStringArray( "res://addons/admob/plugin.cfg" )
 
 [locale]
 

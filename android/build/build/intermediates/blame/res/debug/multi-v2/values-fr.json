@@ -4,23 +4,6 @@
             "outputFile": "D:\\Godot\\Projects\\GodotGameFactory\\android\\build\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\6ae463a1ca68eaa1dde82bb26ec9dcdf\\core-1.2.0\\res\\values-fr\\values-fr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "18",
-                        "startColumns": "4",
-                        "startOffsets": "1990",
-                        "endColumns": "100",
-                        "endOffsets": "2086"
-                    }
-                },
-                {
                     "source": "D:\\Godot\\Projects\\GodotGameFactory\\android\\build\\res\\values-fr\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
@@ -30,45 +13,28 @@
                         "endOffsets": "178"
                     },
                     "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "329",
-                        "endColumns": "70",
-                        "endOffsets": "395"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\af4fd823e542fa107b13064f17c08ba7\\jetified-play-services-ads-20.2.0\\res\\values-fr\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "199,310,480,560,740,828,990,1133,1210,1335,1401,1466,1552,1663",
-                        "endColumns": "110,169,79,179,87,161,142,76,124,65,64,85,110,69",
-                        "endOffsets": "309,479,559,739,827,989,1132,1209,1334,1400,1465,1551,1662,1732"
-                    },
-                    "to": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "400,515,689,773,957,1049,1215,1362,1443,1572,1642,1711,1801,1916",
-                        "endColumns": "114,173,83,183,91,165,146,80,128,69,68,89,114,73",
-                        "endOffsets": "510,684,768,952,1044,1210,1357,1438,1567,1637,1706,1796,1911,1985"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\f67d85943d9cad2370d93f677f0a0aa9\\jetified-play-services-basement-17.6.0\\res\\values-fr\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "223",
-                        "endOffsets": "470"
-                    },
-                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "105",
-                        "endColumns": "223",
-                        "endOffsets": "324"
+                        "startOffsets": "55",
+                        "endColumns": "70",
+                        "endOffsets": "121"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\61f903db516e52d8783db3337e87ee1a\\core-1.0.0\\res\\values-fr\\values-fr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "126",
+                        "endColumns": "100",
+                        "endOffsets": "222"
                     }
                 }
             ]

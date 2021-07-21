@@ -13,49 +13,15 @@
                         "endOffsets": "178"
                     },
                     "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "267",
-                        "endColumns": "70",
-                        "endOffsets": "333"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\f67d85943d9cad2370d93f677f0a0aa9\\jetified-play-services-basement-17.6.0\\res\\values-zh-rTW\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "251",
-                        "endColumns": "161",
-                        "endOffsets": "412"
-                    },
-                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "105",
-                        "endColumns": "161",
-                        "endOffsets": "262"
+                        "startOffsets": "55",
+                        "endColumns": "70",
+                        "endOffsets": "121"
                     }
                 },
                 {
-                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\af4fd823e542fa107b13064f17c08ba7\\jetified-play-services-ads-20.2.0\\res\\values-zh-rTW\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "203,292,386,466,570,654,753,845,906,981,1041,1101,1165,1236",
-                        "endColumns": "88,93,79,103,83,98,91,60,74,59,59,63,70,61",
-                        "endOffsets": "291,385,465,569,653,752,844,905,980,1040,1100,1164,1235,1297"
-                    },
-                    "to": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "338,431,529,613,721,809,912,1008,1073,1152,1216,1280,1348,1423",
-                        "endColumns": "92,97,83,107,87,102,95,64,78,63,63,67,74,65",
-                        "endOffsets": "426,524,608,716,804,907,1003,1068,1147,1211,1275,1343,1418,1484"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\6ae463a1ca68eaa1dde82bb26ec9dcdf\\core-1.2.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "source": "C:\\Users\\bauti\\.gradle\\caches\\transforms-2\\files-2.1\\61f903db516e52d8783db3337e87ee1a\\core-1.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -64,11 +30,11 @@
                         "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "18",
+                        "startLines": "3",
                         "startColumns": "4",
-                        "startOffsets": "1489",
+                        "startOffsets": "126",
                         "endColumns": "100",
-                        "endOffsets": "1585"
+                        "endOffsets": "222"
                     }
                 }
             ]

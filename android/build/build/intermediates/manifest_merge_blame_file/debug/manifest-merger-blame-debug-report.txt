@@ -38,345 +38,86 @@
 26        android:required="true" />
 26-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:21:9-32
 27
-28    <uses-permission android:name="android.permission.INTERNET" />
-28-->[admob-release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\cd1c89ffa87e93e87daa0d20c2977d35\jetified-admob-release\AndroidManifest.xml:11:5-67
-28-->[admob-release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\cd1c89ffa87e93e87daa0d20c2977d35\jetified-admob-release\AndroidManifest.xml:11:22-64
-29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Android package visibility setting -->
-29-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:24:5-79
-29-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:24:22-76
-30    <queries>
-30-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:27:5-43:15
-31
-32        <!-- For browser content -->
-33        <intent>
-33-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:30:9-36:18
-34            <action android:name="android.intent.action.VIEW" />
-34-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:31:13-65
-34-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:31:21-62
-35
-36            <category android:name="android.intent.category.BROWSABLE" />
-36-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:33:13-74
-36-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:33:23-71
-37
-38            <data android:scheme="https" />
-38-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:35:13-44
-38-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:35:19-41
-39        </intent>
-40        <!-- End of browser content -->
-41        <!-- For CustomTabsService -->
-42        <intent>
-42-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:30:9-36:18
-43            <action android:name="android.support.customtabs.action.CustomTabsService" />
-44        </intent>
-45        <!-- End of CustomTabsService -->
-46    </queries>
+28    <uses-permission android:name="com.android.vending.BILLING" />
+28-->[com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:10:5-67
+28-->[com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:10:22-64
+29
+30    <application
+30-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:31:5-69:19
+31        android:allowBackup="false"
+31-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:31:68-95
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\61f903db516e52d8783db3337e87ee1a\core-1.0.0\AndroidManifest.xml:22:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/icon"
+34-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:31:181-208
+35        android:label="@string/godot_project_name_string"
+35-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:31:18-67
+36        android:requestLegacyExternalStorage="false" >
+36-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:31:136-180
+37        <activity
+37-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:46:9-63:20
+38            android:name="com.godot.game.GodotApp"
+38-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:47:13-37
+39            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|density|keyboard|navigation|screenLayout|uiMode"
+39-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:52:13-141
+40            android:label="@string/godot_project_name_string"
+40-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:48:13-62
+41            android:launchMode="singleTask"
+41-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:50:13-44
+42            android:resizeableActivity="false"
+42-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:53:13-47
+43            android:screenOrientation="landscape"
+43-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:51:13-50
+44            android:theme="@style/GodotAppSplashTheme" >
+44-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:49:13-55
+45            <intent-filter>
+45-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:59:13-62:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:60:17-69
+46-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:60:25-66
 47
-48    <uses-permission android:name="android.permission.WAKE_LOCK" />
-48-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\81e4db49c4de43081499749f40d63409\jetified-play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:25:5-68
-48-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\81e4db49c4de43081499749f40d63409\jetified-play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:25:22-65
-49    <uses-permission android:name="com.android.vending.BILLING" />
-49-->[com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:10:5-67
-49-->[com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:10:22-64
-50    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-50-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:27:5-81
-50-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:27:22-78
-51
-52    <application
-52-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:31:5-69:19
-53        android:allowBackup="false"
-53-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:31:68-95
-54        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-54-->[androidx.core:core:1.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\6ae463a1ca68eaa1dde82bb26ec9dcdf\core-1.2.0\AndroidManifest.xml:24:18-86
-55        android:debuggable="true"
-56        android:icon="@mipmap/icon"
-56-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:31:181-208
-57        android:label="@string/godot_project_name_string"
-57-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:31:18-67
-58        android:requestLegacyExternalStorage="false" >
-58-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:31:136-180
-59        <activity
-59-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:46:9-63:20
-60            android:name="com.godot.game.GodotApp"
-60-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:47:13-37
-61            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|density|keyboard|navigation|screenLayout|uiMode"
-61-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:52:13-141
-62            android:label="@string/godot_project_name_string"
-62-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:48:13-62
-63            android:launchMode="singleTask"
-63-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:50:13-44
-64            android:resizeableActivity="false"
-64-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:53:13-47
-65            android:screenOrientation="landscape"
-65-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:51:13-50
-66            android:theme="@style/GodotAppSplashTheme" >
-66-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:49:13-55
-67            <intent-filter>
-67-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:59:13-62:29
-68                <action android:name="android.intent.action.MAIN" />
-68-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:60:17-69
-68-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:60:25-66
-69
-70                <category android:name="android.intent.category.LAUNCHER" />
-70-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:61:17-77
-70-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:61:27-74
-71            </intent-filter>
-72        </activity>
-73        <!-- Records the version of the Godot editor used for building -->
-74        <meta-data
-75            android:name="org.godotengine.editor.version"
-76            android:value="3.3.stable" /> <!-- Records the version of the Godot library -->
-77        <meta-data
-77-->[godot-lib.debug.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\1bb5bb552ba3c7d30912cd84abcb171c\jetified-godot-lib.debug\AndroidManifest.xml:20:9-22:44
-78            android:name="org.godotengine.library.version"
-78-->[godot-lib.debug.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\1bb5bb552ba3c7d30912cd84abcb171c\jetified-godot-lib.debug\AndroidManifest.xml:21:13-59
-79            android:value="3.3.0.stable" />
-79-->[godot-lib.debug.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\1bb5bb552ba3c7d30912cd84abcb171c\jetified-godot-lib.debug\AndroidManifest.xml:22:13-41
-80
-81        <service android:name="org.godotengine.godot.GodotDownloaderService" />
-81-->[godot-lib.debug.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\1bb5bb552ba3c7d30912cd84abcb171c\jetified-godot-lib.debug\AndroidManifest.xml:24:9-80
-81-->[godot-lib.debug.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\1bb5bb552ba3c7d30912cd84abcb171c\jetified-godot-lib.debug\AndroidManifest.xml:24:18-77
-82
-83        <meta-data
-83-->[admob-release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\cd1c89ffa87e93e87daa0d20c2977d35\jetified-admob-release\AndroidManifest.xml:14:9-16:53
-84            android:name="org.godotengine.plugin.v1.AdMob"
-84-->[admob-release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\cd1c89ffa87e93e87daa0d20c2977d35\jetified-admob-release\AndroidManifest.xml:15:13-59
-85            android:value="com.poing.admob.AdMob" />
-85-->[admob-release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\cd1c89ffa87e93e87daa0d20c2977d35\jetified-admob-release\AndroidManifest.xml:16:13-50
-86        <meta-data
-86-->[admob-release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\cd1c89ffa87e93e87daa0d20c2977d35\jetified-admob-release\AndroidManifest.xml:17:9-19:70
-87            android:name="com.google.android.gms.ads.APPLICATION_ID"
-87-->[admob-release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\cd1c89ffa87e93e87daa0d20c2977d35\jetified-admob-release\AndroidManifest.xml:18:13-69
-88            android:value="ca-app-pub-3940256099942544~3347511713" />
-88-->[admob-release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\cd1c89ffa87e93e87daa0d20c2977d35\jetified-admob-release\AndroidManifest.xml:19:13-67
-89        <meta-data
-89-->[GodotGooglePlayBilling.1.0.1.release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\27166f3aaa436280bfba208bdb309954\jetified-GodotGooglePlayBilling.1.0.1.release\AndroidManifest.xml:12:9-14:101
-90            android:name="org.godotengine.plugin.v1.GodotGooglePlayBilling"
-90-->[GodotGooglePlayBilling.1.0.1.release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\27166f3aaa436280bfba208bdb309954\jetified-GodotGooglePlayBilling.1.0.1.release\AndroidManifest.xml:13:13-76
-91            android:value="org.godotengine.godot.plugin.googleplaybilling.GodotGooglePlayBilling" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-91-->[GodotGooglePlayBilling.1.0.1.release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\27166f3aaa436280bfba208bdb309954\jetified-GodotGooglePlayBilling.1.0.1.release\AndroidManifest.xml:14:13-98
-92        <activity
-92-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:48:9-52:64
-93            android:name="com.google.android.gms.ads.AdActivity"
-93-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:49:13-65
-94            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-94-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:50:13-122
-95            android:exported="false"
-95-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:51:13-37
-96            android:theme="@android:style/Theme.Translucent" />
-96-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:52:13-61
-97
-98        <provider
-98-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:54:9-58:39
-99            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-99-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:55:13-76
-100            android:authorities="org.godotengine.godotgamefactory.mobileadsinitprovider"
-100-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:56:13-73
-101            android:exported="false"
-101-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:57:13-37
-102            android:initOrder="100" />
-102-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:58:13-36
-103
-104        <service
-104-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:60:9-63:40
-105            android:name="com.google.android.gms.ads.AdService"
-105-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:61:13-64
-106            android:enabled="true"
-106-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:62:13-35
-107            android:exported="false" />
-107-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:63:13-37
-108
-109        <meta-data
-109-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\f67d85943d9cad2370d93f677f0a0aa9\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
-110            android:name="com.google.android.gms.version"
-110-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\f67d85943d9cad2370d93f677f0a0aa9\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
-111            android:value="@integer/google_play_services_version" />
-111-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\f67d85943d9cad2370d93f677f0a0aa9\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
-112        <meta-data
-112-->[com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:13:9-15:37
-113            android:name="com.google.android.play.billingclient.version"
-113-->[com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:14:13-73
-114            android:value="3.0.0" />
-114-->[com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:15:13-34
-115
-116        <activity
-116-->[com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:17:9-20:75
-117            android:name="com.android.billingclient.api.ProxyBillingActivity"
-117-->[com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:18:13-78
-118            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-118-->[com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:19:13-96
-119            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-119-->[com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:20:13-72
-120
-121        <provider
-121-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:30:9-36:35
-122            android:name="androidx.work.impl.WorkManagerInitializer"
-122-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:31:13-69
-123            android:authorities="org.godotengine.godotgamefactory.workmanager-init"
-123-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:32:13-68
-124            android:directBootAware="false"
-124-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:33:13-44
-125            android:exported="false"
-125-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:34:13-37
-126            android:multiprocess="true" />
-126-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:35:13-40
-127
-128        <service
-128-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:38:9-43:35
-129            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-129-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:39:13-88
-130            android:directBootAware="false"
-130-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:40:13-44
-131            android:enabled="@bool/enable_system_alarm_service_default"
-131-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:41:13-72
-132            android:exported="false" />
-132-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:42:13-37
-133        <service
-133-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:44:9-50:35
-134            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-134-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:45:13-84
-135            android:directBootAware="false"
-135-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:46:13-44
-136            android:enabled="@bool/enable_system_job_service_default"
-136-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:47:13-70
-137            android:exported="true"
-137-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:48:13-36
-138            android:permission="android.permission.BIND_JOB_SERVICE" />
-138-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:49:13-69
-139
-140        <receiver
-140-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:52:9-57:35
-141            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-141-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:53:13-88
-142            android:directBootAware="false"
-142-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:54:13-44
-143            android:enabled="true"
-143-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:55:13-35
-144            android:exported="false" />
-144-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:56:13-37
-145        <receiver
-145-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:58:9-68:20
-146            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-146-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:59:13-106
-147            android:directBootAware="false"
-147-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:60:13-44
-148            android:enabled="false"
-148-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:61:13-36
-149            android:exported="false" >
-149-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:62:13-37
-150            <intent-filter>
-150-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:64:13-67:29
-151                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-151-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:65:17-87
-151-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:65:25-84
-152                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-152-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:66:17-90
-152-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:66:25-87
-153            </intent-filter>
-154        </receiver>
-155        <receiver
-155-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:69:9-79:20
-156            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-156-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:70:13-104
-157            android:directBootAware="false"
-157-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:71:13-44
-158            android:enabled="false"
-158-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:72:13-36
-159            android:exported="false" >
-159-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:73:13-37
-160            <intent-filter>
-160-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:75:13-78:29
-161                <action android:name="android.intent.action.BATTERY_OKAY" />
-161-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:76:17-77
-161-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:76:25-74
-162                <action android:name="android.intent.action.BATTERY_LOW" />
-162-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:77:17-76
-162-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:77:25-73
-163            </intent-filter>
-164        </receiver>
-165        <receiver
-165-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:80:9-90:20
-166            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-166-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:81:13-104
-167            android:directBootAware="false"
-167-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:82:13-44
-168            android:enabled="false"
-168-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:83:13-36
-169            android:exported="false" >
-169-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:84:13-37
-170            <intent-filter>
-170-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:86:13-89:29
-171                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-171-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:87:17-83
-171-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:87:25-80
-172                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-172-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:88:17-82
-172-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:88:25-79
-173            </intent-filter>
-174        </receiver>
-175        <receiver
-175-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:91:9-100:20
-176            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-176-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:92:13-103
-177            android:directBootAware="false"
-177-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:93:13-44
-178            android:enabled="false"
-178-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:94:13-36
-179            android:exported="false" >
-179-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:95:13-37
-180            <intent-filter>
-180-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:97:13-99:29
-181                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-181-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:98:17-79
-181-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:98:25-76
-182            </intent-filter>
-183        </receiver>
-184        <receiver
-184-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:101:9-112:20
-185            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-185-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:102:13-88
-186            android:directBootAware="false"
-186-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:103:13-44
-187            android:enabled="false"
-187-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:104:13-36
-188            android:exported="false" >
-188-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:105:13-37
-189            <intent-filter>
-189-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:107:13-111:29
-190                <action android:name="android.intent.action.BOOT_COMPLETED" />
-190-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:108:17-79
-190-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:108:25-76
-191                <action android:name="android.intent.action.TIME_SET" />
-191-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:109:17-73
-191-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:109:25-70
-192                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-192-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:110:17-81
-192-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:110:25-78
-193            </intent-filter>
-194        </receiver>
-195        <receiver
-195-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:113:9-122:20
-196            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-196-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:114:13-99
-197            android:directBootAware="false"
-197-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:115:13-44
-198            android:enabled="@bool/enable_system_alarm_service_default"
-198-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:116:13-72
-199            android:exported="false" >
-199-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:117:13-37
-200            <intent-filter>
-200-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:119:13-121:29
-201                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-201-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:120:17-98
-201-->[androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:120:25-95
-202            </intent-filter>
-203        </receiver>
-204
-205        <service
-205-->[androidx.room:room-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\8077a78d606e62b0ce6d2108da782e24\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
-206            android:name="androidx.room.MultiInstanceInvalidationService"
-206-->[androidx.room:room-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\8077a78d606e62b0ce6d2108da782e24\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
-207            android:exported="false" />
-207-->[androidx.room:room-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\8077a78d606e62b0ce6d2108da782e24\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
-208    </application>
-209
-210</manifest>
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:61:17-77
+48-->D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:61:27-74
+49            </intent-filter>
+50        </activity>
+51        <!-- Records the version of the Godot editor used for building -->
+52        <meta-data
+53            android:name="org.godotengine.editor.version"
+54            android:value="3.3.stable" /> <!-- Records the version of the Godot library -->
+55        <meta-data
+55-->[godot-lib.debug.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\1bb5bb552ba3c7d30912cd84abcb171c\jetified-godot-lib.debug\AndroidManifest.xml:20:9-22:44
+56            android:name="org.godotengine.library.version"
+56-->[godot-lib.debug.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\1bb5bb552ba3c7d30912cd84abcb171c\jetified-godot-lib.debug\AndroidManifest.xml:21:13-59
+57            android:value="3.3.0.stable" />
+57-->[godot-lib.debug.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\1bb5bb552ba3c7d30912cd84abcb171c\jetified-godot-lib.debug\AndroidManifest.xml:22:13-41
+58
+59        <service android:name="org.godotengine.godot.GodotDownloaderService" />
+59-->[godot-lib.debug.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\1bb5bb552ba3c7d30912cd84abcb171c\jetified-godot-lib.debug\AndroidManifest.xml:24:9-80
+59-->[godot-lib.debug.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\1bb5bb552ba3c7d30912cd84abcb171c\jetified-godot-lib.debug\AndroidManifest.xml:24:18-77
+60
+61        <meta-data
+61-->[GodotGooglePlayBilling.1.0.1.release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\27166f3aaa436280bfba208bdb309954\jetified-GodotGooglePlayBilling.1.0.1.release\AndroidManifest.xml:12:9-14:101
+62            android:name="org.godotengine.plugin.v1.GodotGooglePlayBilling"
+62-->[GodotGooglePlayBilling.1.0.1.release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\27166f3aaa436280bfba208bdb309954\jetified-GodotGooglePlayBilling.1.0.1.release\AndroidManifest.xml:13:13-76
+63            android:value="org.godotengine.godot.plugin.googleplaybilling.GodotGooglePlayBilling" />
+63-->[GodotGooglePlayBilling.1.0.1.release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\27166f3aaa436280bfba208bdb309954\jetified-GodotGooglePlayBilling.1.0.1.release\AndroidManifest.xml:14:13-98
+64        <meta-data
+64-->[com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:13:9-15:37
+65            android:name="com.google.android.play.billingclient.version"
+65-->[com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:14:13-73
+66            android:value="3.0.0" />
+66-->[com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:15:13-34
+67
+68        <activity
+68-->[com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:17:9-20:75
+69            android:name="com.android.billingclient.api.ProxyBillingActivity"
+69-->[com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:18:13-78
+70            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+70-->[com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:19:13-96
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:20:13-72
+72    </application>
+73
+74</manifest>
