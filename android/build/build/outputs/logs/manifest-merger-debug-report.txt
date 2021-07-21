@@ -11,6 +11,7 @@ INJECTED from D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.x
 MERGED from D:\Godot\Projects\GodotGameFactory\android\build\AndroidManifest.xml:2:1-71:12
 MERGED from [godot-lib.debug.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\1bb5bb552ba3c7d30912cd84abcb171c\jetified-godot-lib.debug\AndroidManifest.xml:2:1-27:12
 MERGED from [admob-release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\cd1c89ffa87e93e87daa0d20c2977d35\jetified-admob-release\AndroidManifest.xml:2:1-22:12
+MERGED from [GodotGooglePlayBilling.1.0.1.release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\27166f3aaa436280bfba208bdb309954\jetified-GodotGooglePlayBilling.1.0.1.release\AndroidManifest.xml:2:1-17:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\5b5c96b58f7e900ed17e011bb7ea215f\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-ads:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\af4fd823e542fa107b13064f17c08ba7\jetified-play-services-ads-20.2.0\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:17:1-66:12
@@ -25,6 +26,7 @@ MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\bauti\.gradle\caches\tra
 MERGED from [androidx.browser:browser:1.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\c28ef490a1805f4e14b0cd490d0fdd2d\browser-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\171357cc7dc8c7c45b23ac0c50de1342\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\49fe4f73117fbb6195871cb5d1ff1533\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:2:1-23:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\f30cb0324495be72899809e53a1b8b18\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\70e72f97faa3655a718a198998797060\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\c70713324b2cae2ab7bfcbb4308f8533\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -103,6 +105,8 @@ MERGED from [godot-lib.debug.aar] C:\Users\bauti\.gradle\caches\transforms-2\fil
 MERGED from [godot-lib.debug.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\1bb5bb552ba3c7d30912cd84abcb171c\jetified-godot-lib.debug\AndroidManifest.xml:17:5-25:19
 MERGED from [admob-release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\cd1c89ffa87e93e87daa0d20c2977d35\jetified-admob-release\AndroidManifest.xml:13:5-20:19
 MERGED from [admob-release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\cd1c89ffa87e93e87daa0d20c2977d35\jetified-admob-release\AndroidManifest.xml:13:5-20:19
+MERGED from [GodotGooglePlayBilling.1.0.1.release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\27166f3aaa436280bfba208bdb309954\jetified-GodotGooglePlayBilling.1.0.1.release\AndroidManifest.xml:11:5-15:19
+MERGED from [GodotGooglePlayBilling.1.0.1.release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\27166f3aaa436280bfba208bdb309954\jetified-GodotGooglePlayBilling.1.0.1.release\AndroidManifest.xml:11:5-15:19
 MERGED from [com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:45:5-64:19
 MERGED from [com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:45:5-64:19
 MERGED from [com.google.android.gms:play-services-ads-base:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\bbd93abb7b7a66af417f91f84c35c078\jetified-play-services-ads-base-20.2.0\AndroidManifest.xml:7:5-20
@@ -115,6 +119,8 @@ MERGED from [com.google.android.gms:play-services-measurement-base:18.0.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-base:18.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\cdaa83b93a02ffd01bdc0251f9dfbe24\jetified-play-services-measurement-base-18.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\f67d85943d9cad2370d93f677f0a0aa9\jetified-play-services-basement-17.6.0\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\f67d85943d9cad2370d93f677f0a0aa9\jetified-play-services-basement-17.6.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:12:5-21:19
+MERGED from [com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:12:5-21:19
 MERGED from [androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:29:5-123:19
 MERGED from [androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:29:5-123:19
 MERGED from [androidx.room:room-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\8077a78d606e62b0ce6d2108da782e24\room-runtime-2.1.0\AndroidManifest.xml:24:5-28:19
@@ -203,6 +209,8 @@ MERGED from [godot-lib.debug.aar] C:\Users\bauti\.gradle\caches\transforms-2\fil
 MERGED from [godot-lib.debug.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\1bb5bb552ba3c7d30912cd84abcb171c\jetified-godot-lib.debug\AndroidManifest.xml:7:5-9:41
 MERGED from [admob-release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\cd1c89ffa87e93e87daa0d20c2977d35\jetified-admob-release\AndroidManifest.xml:7:5-9:41
 MERGED from [admob-release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\cd1c89ffa87e93e87daa0d20c2977d35\jetified-admob-release\AndroidManifest.xml:7:5-9:41
+MERGED from [GodotGooglePlayBilling.1.0.1.release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\27166f3aaa436280bfba208bdb309954\jetified-GodotGooglePlayBilling.1.0.1.release\AndroidManifest.xml:7:5-9:41
+MERGED from [GodotGooglePlayBilling.1.0.1.release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\27166f3aaa436280bfba208bdb309954\jetified-GodotGooglePlayBilling.1.0.1.release\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\5b5c96b58f7e900ed17e011bb7ea215f\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\5b5c96b58f7e900ed17e011bb7ea215f\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\af4fd823e542fa107b13064f17c08ba7\jetified-play-services-ads-20.2.0\AndroidManifest.xml:21:5-23:52
@@ -231,6 +239,8 @@ MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\bauti\.gradl
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\171357cc7dc8c7c45b23ac0c50de1342\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\49fe4f73117fbb6195871cb5d1ff1533\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\49fe4f73117fbb6195871cb5d1ff1533\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\f30cb0324495be72899809e53a1b8b18\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\f30cb0324495be72899809e53a1b8b18\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\70e72f97faa3655a718a198998797060\loader-1.0.0\AndroidManifest.xml:20:5-44
@@ -336,6 +346,12 @@ ADDED from [admob-release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-
 		ADDED from [admob-release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\cd1c89ffa87e93e87daa0d20c2977d35\jetified-admob-release\AndroidManifest.xml:19:13-67
 	android:name
 		ADDED from [admob-release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\cd1c89ffa87e93e87daa0d20c2977d35\jetified-admob-release\AndroidManifest.xml:18:13-69
+meta-data#org.godotengine.plugin.v1.GodotGooglePlayBilling
+ADDED from [GodotGooglePlayBilling.1.0.1.release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\27166f3aaa436280bfba208bdb309954\jetified-GodotGooglePlayBilling.1.0.1.release\AndroidManifest.xml:12:9-14:101
+	android:value
+		ADDED from [GodotGooglePlayBilling.1.0.1.release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\27166f3aaa436280bfba208bdb309954\jetified-GodotGooglePlayBilling.1.0.1.release\AndroidManifest.xml:14:13-98
+	android:name
+		ADDED from [GodotGooglePlayBilling.1.0.1.release.aar] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\27166f3aaa436280bfba208bdb309954\jetified-GodotGooglePlayBilling.1.0.1.release\AndroidManifest.xml:13:13-76
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\25d77e42549af31885a955ac1e68043a\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\81e4db49c4de43081499749f40d63409\jetified-play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:24:5-79
@@ -400,6 +416,24 @@ ADDED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\bauti
 		ADDED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\f67d85943d9cad2370d93f677f0a0aa9\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\f67d85943d9cad2370d93f677f0a0aa9\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+uses-permission#com.android.vending.BILLING
+ADDED from [com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from [com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:10:22-64
+meta-data#com.google.android.play.billingclient.version
+ADDED from [com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:13:9-15:37
+	android:value
+		ADDED from [com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:15:13-34
+	android:name
+		ADDED from [com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:14:13-73
+activity#com.android.billingclient.api.ProxyBillingActivity
+ADDED from [com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:17:9-20:75
+	android:configChanges
+		ADDED from [com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:19:13-96
+	android:theme
+		ADDED from [com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:20:13-72
+	android:name
+		ADDED from [com.android.billingclient:billing:3.0.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\516b15e9a1e35590a388b90e7e73240e\jetified-billing-3.0.0\AndroidManifest.xml:18:13-78
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
 ADDED from [androidx.work:work-runtime:2.1.0] C:\Users\bauti\.gradle\caches\transforms-2\files-2.1\67b40a54ef3958b04ed647d8bb1f28ed\work-runtime-2.1.0\AndroidManifest.xml:27:5-81
 	android:name

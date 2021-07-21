@@ -46,6 +46,7 @@
     </queries>
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.vending.BILLING" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <application
@@ -84,7 +85,10 @@
             android:value="com.poing.admob.AdMob" />
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+        <meta-data
+            android:name="org.godotengine.plugin.v1.GodotGooglePlayBilling"
+            android:value="org.godotengine.godot.plugin.googleplaybilling.GodotGooglePlayBilling" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
@@ -105,6 +109,14 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.play.billingclient.version"
+            android:value="3.0.0" />
+
+        <activity
+            android:name="com.android.billingclient.api.ProxyBillingActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <provider
             android:name="androidx.work.impl.WorkManagerInitializer"
