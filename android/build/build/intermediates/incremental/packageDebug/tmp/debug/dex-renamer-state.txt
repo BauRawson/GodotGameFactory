@@ -1,4 +1,16 @@
-#Wed Jul 21 06:55:57 ART 2021
-base.0=D\:\\Godot\\Projects\\GodotGameFactory\\android\\build\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Wed Jul 21 13:35:35 ART 2021
+path.3=classes4.dex
+path.2=classes3.dex
+path.1=classes2.dex
+renamed.4=classes5.dex
 path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+base.4=D\:\\Godot\\Projects\\GodotGameFactory\\android\\build\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes5.dex
 renamed.0=classes.dex
+base.3=D\:\\Godot\\Projects\\GodotGameFactory\\android\\build\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes4.dex
+base.2=D\:\\Godot\\Projects\\GodotGameFactory\\android\\build\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes3.dex
+base.1=D\:\\Godot\\Projects\\GodotGameFactory\\android\\build\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
+base.0=D\:\\Godot\\Projects\\GodotGameFactory\\android\\build\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.4=classes5.dex

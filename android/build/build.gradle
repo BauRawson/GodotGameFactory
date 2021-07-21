@@ -31,6 +31,10 @@ allprojects {
 //CHUNK_ALLPROJECTS_REPOSITORIES_BEGIN
 //CHUNK_ALLPROJECTS_REPOSITORIES_END
 
+        maven { url "https://android-sdk.is.com" }
+        maven { url "https://artifact.bytedance.com/repository/pangle" }
+        maven { url "https://sdk.tapjoy.com/" }
+
         // Godot user plugins custom maven repos
         String[] mavenRepos = getGodotPluginsMavenRepos()
         if (mavenRepos != null && mavenRepos.size() > 0) {
@@ -105,6 +109,8 @@ android {
         versionName getExportVersionName()
         minSdkVersion versions.minSdk
         targetSdkVersion versions.targetSdk
+        multiDexEnabled true
+
 //CHUNK_ANDROID_DEFAULTCONFIG_BEGIN
 //CHUNK_ANDROID_DEFAULTCONFIG_END
     }

@@ -32,12 +32,12 @@
         "source": "D:\\Godot\\Projects\\GodotGameFactory\\android\\build\\res\\drawable\\splash_drawable.xml"
     },
     {
-        "merged": "D:\\Godot\\Projects\\GodotGameFactory\\android\\build\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4_icon.png.flat",
-        "source": "D:\\Godot\\Projects\\GodotGameFactory\\android\\build\\res\\mipmap-xhdpi-v4\\icon.png"
-    },
-    {
         "merged": "D:\\Godot\\Projects\\GodotGameFactory\\android\\build\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4_icon.png.flat",
         "source": "D:\\Godot\\Projects\\GodotGameFactory\\android\\build\\res\\mipmap-xxxhdpi-v4\\icon.png"
+    },
+    {
+        "merged": "D:\\Godot\\Projects\\GodotGameFactory\\android\\build\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4_icon.png.flat",
+        "source": "D:\\Godot\\Projects\\GodotGameFactory\\android\\build\\res\\mipmap-xhdpi-v4\\icon.png"
     },
     {
         "merged": "D:\\Godot\\Projects\\GodotGameFactory\\android\\build\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_splash.png.flat",

@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "org.godotengine.godotgamefactory",
+  "applicationId": "com.Wobbly.GodotGameFactory",
   "variantName": "debug",
   "elements": [
     {

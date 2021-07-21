@@ -1,11 +1,38 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://singletons/yodo1mas.gd" type="Script" id=1]
 
 [node name="Main" type="Node"]
 
-[node name="Label" type="Label" parent="."]
-margin_right = 40.0
-margin_bottom = 14.0
-text = "*PLAY*"
+[node name="Yodo1Mas" type="Node" parent="."]
+script = ExtResource( 1 )
+app_id_android = "i7mssDOFCCm"
+
+[node name="VSplitContainer" type="VSplitContainer" parent="Yodo1Mas"]
+anchor_right = 1.0
+anchor_bottom = 1.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Init" type="Button" parent="Yodo1Mas/VSplitContainer"]
+margin_right = 1024.0
+margin_bottom = 294.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ShowInterstitial" type="Button" parent="Yodo1Mas/VSplitContainer"]
+margin_top = 306.0
+margin_right = 1024.0
+margin_bottom = 600.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Yodo1Mas/VSplitContainer/Init" to="Yodo1Mas" method="_on_Init_pressed"]
+[connection signal="pressed" from="Yodo1Mas/VSplitContainer/ShowInterstitial" to="Yodo1Mas" method="_on_ShowInterstitial_pressed"]
